@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+</head>
+
+<title>Thotless Clothing Company</title>
+
+<h1 class="monospace sec2">Thotless Clothing Company</h1>
+<p class="sec2 serif">Recently desgined clothing</p>
+<img src="/images/logo.jpg" alt="Company_Logo">
+<div style="background-image: url('/images/logo.jpg');">
+<button class="button button2" onclick="pgrdstore" id="st">Store</button>
+<button class="button button2" onclick="pgrdstore" id="dsl">Design Lab</button>
+
+<!--"pageredirects"-->
+<script>
+function pgrdstore(){
+  window.location = "/pages/store.html";
+}
+function pgrdhome(){
+  window.location = "/pages/home.html";
+}
+function pgrddesi(){
+  window.location = "/pages/storedes.html";
+}
+document.getElementById("st").addEventListener("click", function(){
+    pgrdstore();
+})
+document.getElementById("dsl").addEventListener("click", function(){
+    pgrddesi();
+})
+</script>
+</html>
