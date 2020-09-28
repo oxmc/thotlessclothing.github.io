@@ -27,12 +27,12 @@
 .button2:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
-body {
-  background-image: url('https://oxmc.github.io/thotlessclothing.github.io/images/bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+.fstPage {
+    background-image:url("https://oxmc.github.io/thotlessclothing.github.io/images/bg.jpg");
+    /*background-color: lightgray;*/
+    height: 700px;
+    width:100%;
+    background-size:cover;
 }
 .sec {
   background-color: black;
